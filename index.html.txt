@@ -1,0 +1,39 @@
+﻿text: 'โปรดเลือก เบอร์ 10 | โปร่งใส ตรวจสอบได้ ร่วมกันสร้างชีวิตที่ดีกว่า ไปด้วยกัน',
+                    url: window.location.href,
+                }).catch(() => {});
+            } else {
+                copyWebLink();
+            }
+        }
+        function shareToLine() {
+        function shareWeb() {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'นางนวลจันทร์ ศรีมงคล | ผู้สมัครกรรมการดำเนินการ สอ.พช. เบอร์ 10',
+        function toggleDesktopDropdown(event) {
+            event.stopPropagation();
+            const dropdown = document.getElementById('policyDropdownMenu');
+            if (dropdown) {
+                dropdown.classList.toggle('hidden');
+            }
+        }
+        document.addEventListener('click', function(event) {
+            const container = document.getElementById('policyDropdownContainer');
+            const dropdown = document.getElementById('policyDropdownMenu');
+            if (container && dropdown && !container.contains(event.target)) {
+                dropdown.classList.add('hidden');
+            }
+        });
+                icon.className = 'fa-solid fa-xmark text-amber-400';
+            }
+        }
+    </div>
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            const icon = document.getElementById('mobileMenuIcon');
+            if (!menu || !icon) return;
+            menu.classList.toggle('hidden');
+            if (menu.classList.contains('hidden')) {
+                icon.className = 'fa-solid fa-bars';
+            } else {
